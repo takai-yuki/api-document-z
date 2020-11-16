@@ -4,7 +4,7 @@
 Zaifの公開API/取引APIを各種プログラミング言語から簡単に使用するためのライブラリをご紹介させていただきます。
 
 ``` note::
-  ここで紹介させていただいているライブラリは、Zaifと直接関係のない一般の方々が作成して公開しておられるもの、いわゆる「非公式ライブラリ」となります。 
+  ここで紹介させていただいているライブラリは、Zaifと直接関係のない一般の方々が作成して公開しておられるもの、いわゆる「非公式ライブラリ」となります。
   これ以外にもご存知の場合や作成して頂いた場合で、ここにリンクを希望されます方は、お手数ですがzaifdotjpのTwitterアカウントや関係者などにご一報いただければ幸いです。
   また、もしここへの掲載を希望されない場合も、お手数おかけしますがご連絡頂ければ対処いたしますので、よろしくおねがいします。
 ```
@@ -25,7 +25,7 @@ Zaifの公開API/取引APIを各種プログラミング言語から簡単に使
 
 ### Ruby
 * RubyGems zaif
-	
+
 	[https://github.com/techbureau/zaif-ruby](https://github.com/techbureau/zaif-ruby)
 
 ### PHP
@@ -67,7 +67,7 @@ if response.status_code != 200:
 json.loads(response.text)
 >>>{"last_price": 130065.0}
 ```
-現物取引API
+Orderbook trading API
 ```
 import json
 import hmac
@@ -132,7 +132,7 @@ func main() {
 }
 >>>{"last_price": 130065.0}
 ```
-現物取引API
+Orderbook trading API
 ```
 package main
 
@@ -199,7 +199,7 @@ URLSession.shared.dataTask(with: request) {data, response, err in
 }.resume()
 >>>{"last_price": 130065.0}
 ```
-現物取引API
+Orderbook trading API
 
 ```
 import Foundation
