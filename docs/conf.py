@@ -153,7 +153,7 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
     (master_doc, 'api-doc.tex', 'api-doc Documentation',
-     'fcce', 'manual'),
+     'zaif', 'manual'),
 ]
 
 
