@@ -53,8 +53,8 @@ master_doc = 'index'
 
 # General information about the project.
 project = 'Zaif api document'
-copyright = 'Fisco Cryptocurrency Exchange Inc.'
-author = 'fcce'
+copyright = 'Zaif Exchange Inc.'
+author = 'Zaif'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
