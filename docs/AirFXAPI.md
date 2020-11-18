@@ -205,11 +205,11 @@ AirFXのユーザー自身の取引履歴の明細を取得します。
 #### パラメータ
 ```eval_rst
 =========== ==== =============== === ===========
-パラメータ  必須 詳細            型  デフォルト
+パラメータ    必須  詳細               型  デフォルト
 =========== ==== =============== === ===========
-method      Yes  position_history str
-group_id    Yes  グループID      int
-leverage_id Yes  注文ID          int
+method        Yes   position_history  str
+group_id      Yes   グループID        int
+leverage_id   Yes   注文ID            int
 =========== ==== =============== === ===========
 ```
 
