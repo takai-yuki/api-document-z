@@ -35,12 +35,13 @@ from recommonmark.parser import CommonMarkParser
 extensions = [
     # Auto-generate section labels.
     'sphinx.ext.autosectionlabel',
+    'recommonmark',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
 
-source_parsers = {'.md': 'recommonmark.parser.CommonMarkParser' ,}
+source_parsers = {'.md': CommonMarkParser ,}
 
 # The suffix(es) of source filenames.
 # You can specify multiple suffix as a list of string:
